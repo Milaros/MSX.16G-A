@@ -164,3 +164,38 @@
 [21:41:39] [User Authenticator #1/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
 [21:41:39] [Server thread/INFO]: JustMilaros joined the game
 [21:41:39] [Server thread/INFO]: JustMilaros[/127.76.223.122:53593] logged in with entity id 729 at ([world_nether]53.70052877670067, 87.0625, -15.984550557635448)
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: java.lang.RuntimeException: Server attempted to load chunk saved with newer version of minecraft! 3700 > 3465
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: 	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:149)
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: 	at io.papermc.paper.chunk.system.scheduling.ChunkLoadTask$ChunkDataLoadTask.runOffMain(ChunkLoadTask.java:338)
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: 	at io.papermc.paper.chunk.system.scheduling.GenericDataLoadTask$ProcessOffMainTask.run(GenericDataLoadTask.java:307)
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: 	at ca.spottedleaf.concurrentutil.executor.standard.PrioritisedThreadedTaskQueue$PrioritisedTask.executeInternal(PrioritisedThreadedTaskQueue.java:351)
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: 	at ca.spottedleaf.concurrentutil.executor.standard.PrioritisedThreadedTaskQueue.executeTask(PrioritisedThreadedTaskQueue.java:118)
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: 	at ca.spottedleaf.concurrentutil.executor.standard.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:274)
+[21:46:47] [Tuinity Chunk System Worker #0/WARN]: 	at ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:50)
+[21:46:47] [Server thread/INFO]: Stopping server
+[21:46:47] [Server thread/INFO]: Saving players
+[21:46:47] [Server thread/INFO]: JustMilaros lost connection: Día terminado! Gracias por jugar.
+[21:46:47] [Server thread/INFO]: JustMilaros left the game
+[21:46:48] [Server thread/INFO]: Saving worlds
+[21:46:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:46:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:47:48] [Server thread/WARN]: [ChunkHolderManager] Failed to halt world generation/loading tasks for world 'world'
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Saved 375 block chunks, 444 entity chunks, 0 poi chunks in world 'world' in 0.48s
+[21:47:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:47:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Saved 1335 block chunks, 37 entity chunks, 0 poi chunks in world 'world_nether' in 0.36s
+[21:47:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:47:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:47:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:47:49] [Server thread/INFO]: [ChunkHolderManager] Saved 1496 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.26s
+[21:47:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:47:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:47:49] [Server thread/INFO]: Flushing Chunk IO
+[21:47:49] [Server thread/INFO]: Closing Thread Pool
+[21:47:49] [Server thread/INFO]: Closing Server
