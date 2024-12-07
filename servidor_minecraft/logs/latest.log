@@ -174,3 +174,6 @@
 [19:09:36] [Server thread/INFO]: [JustMilaros: Set own game mode to Creative Mode]
 [19:09:40] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
 [19:09:40] [Server thread/INFO]: [JustMilaros: Set own game mode to Survival Mode]
+[19:10:32] [Server thread/INFO]: JustMilaros has made the advancement [Take Aim]
+[19:11:27] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[19:11:27] [Server thread/INFO]: [JustMilaros: Set own game mode to Creative Mode]
