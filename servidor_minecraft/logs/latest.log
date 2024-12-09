@@ -178,3 +178,6 @@
 [23:13:18] [Server thread/INFO]: [JustMilaros: Set the weather to clear]
 [23:14:20] [Server thread/INFO]: JustMilaros issued server command: /time set day
 [23:14:20] [Server thread/INFO]: [JustMilaros: Set the time to 1000]
+[23:32:28] [Server thread/INFO]: JustMilaros issued server command: /time set day{
+[23:32:32] [Server thread/INFO]: JustMilaros issued server command: /time set day
+[23:32:32] [Server thread/INFO]: [JustMilaros: Set the time to 1000]
