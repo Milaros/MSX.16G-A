@@ -1,206 +1,272 @@
-[21:17:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:17:54] [ServerMain/INFO]: Found new data pack file/Recursos Dedsafio by itssos 2.zip, loading it automatically
-[21:17:57] [ServerMain/INFO]: Loaded 7 recipes
-[21:17:57] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:17:57] [Server thread/INFO]: Loading properties
-[21:17:57] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[21:17:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:17:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:17:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:22:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:22:25] [ServerMain/INFO]: Loaded 7 recipes
+[22:22:26] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:22:26] [Server thread/INFO]: Loading properties
+[22:22:26] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[22:22:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:22:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:22:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:17:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:17:58] [Server thread/INFO]: Default game type: SURVIVAL
-[21:17:58] [Server thread/INFO]: Generating keypair
-[21:17:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:17:59] [Server thread/INFO]: Using epoll channel type
-[21:17:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:17:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:17:59] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[21:18:00] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[21:18:00] [Server thread/INFO]: [floodgate] Took 573ms to boot Floodgate
-[21:18:00] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[21:18:00] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[21:18:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[21:18:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[21:18:01] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
-[21:18:01] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[21:18:01] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[21:18:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:18:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:18:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:18:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:18:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:18:01] [Server thread/INFO]: Preparing level "world"
-[21:18:01] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:18:01] [Server thread/INFO]: View Distance: 7
-[21:18:01] [Server thread/INFO]: Simulation Distance: 9
-[21:18:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:18:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:18:01] [Server thread/INFO]: Mob Spawn Range: 6
-[21:18:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:18:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[21:18:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:18:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:18:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:18:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
-[21:18:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[21:18:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[21:18:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[21:18:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[21:18:01] [Server thread/INFO]: Max TNT Explosions: 100
-[21:18:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:18:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:18:02] [Server thread/INFO]: View Distance: 7
-[21:18:02] [Server thread/INFO]: Simulation Distance: 9
-[21:18:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:18:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:18:02] [Server thread/INFO]: Mob Spawn Range: 6
-[21:18:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:18:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[21:18:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:18:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:18:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:18:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[21:18:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[21:18:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[21:18:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[21:18:02] [Server thread/INFO]: Max TNT Explosions: 100
-[21:18:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:18:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:18:02] [Server thread/INFO]: View Distance: 7
-[21:18:02] [Server thread/INFO]: Simulation Distance: 9
-[21:18:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:18:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:18:02] [Server thread/INFO]: Mob Spawn Range: 6
-[21:18:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:18:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[21:18:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:18:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:18:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:18:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Potato Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
-[21:18:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[21:18:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[21:18:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[21:18:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[21:18:02] [Server thread/INFO]: Max TNT Explosions: 100
-[21:18:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:18:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:18:02] [Server thread/INFO]: Time elapsed: 353 ms
-[21:18:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:18:02] [Server thread/INFO]: Time elapsed: 89 ms
-[21:18:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:18:02] [Server thread/INFO]: Time elapsed: 71 ms
-[21:18:02] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[21:18:03] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[21:18:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[21:18:03] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
-[21:18:03] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[21:18:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
-[21:18:04] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:18:04] [Server thread/INFO]: [Geyser-Spigot] 
-[21:18:04] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
-[21:18:04] [Server thread/INFO]: [Geyser-Spigot] 
-[21:18:04] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:18:08] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1954
-[21:18:08] [Server thread/INFO]: [Geyser-Spigot] Done (4.537s)! Run /geyser help for help!
-[21:18:09] [Server thread/INFO]: Running delayed init tasks
-[21:18:09] [Server thread/INFO]: Done (11.370s)! For help, type "help"
-[21:18:09] [Server thread/INFO]: Timings Reset
-[21:18:09] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[21:19:01] [User Authenticator #0/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
-[21:19:01] [Server thread/INFO]: JustMilaros joined the game
-[21:19:01] [Server thread/INFO]: JustMilaros[/127.76.223.122:34667] logged in with entity id 377 at ([world]106.70623731513066, 70.9931370059502, -407.52208181910515)
-[21:19:44] [Server thread/INFO]: JustMilaros issued server command: /weather clear
-[21:19:44] [Server thread/INFO]: [JustMilaros: Set the weather to clear]
-[21:19:54] [Server thread/INFO]: JustMilaros issued server command: /datapack list
-[21:20:31] [Server thread/INFO]: JustMilaros issued server command: /tag @a add anim.ruleta.naranja
-[21:20:31] [Server thread/INFO]: [JustMilaros: Added tag 'anim.ruleta.naranja' to JustMilaros]
-[21:20:56] [Server thread/INFO]: JustMilaros issued server command: /tag @a add anim.ruleta.roja
-[21:20:56] [Server thread/INFO]: [JustMilaros: Added tag 'anim.ruleta.roja' to JustMilaros]
-[21:21:20] [Server thread/INFO]: JustMilaros lost connection: Disconnected
-[21:21:20] [Server thread/INFO]: JustMilaros left the game
-[21:21:40] [User Authenticator #1/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
-[21:21:40] [Server thread/INFO]: JustMilaros joined the game
-[21:21:40] [Server thread/INFO]: JustMilaros[/127.76.223.122:53751] logged in with entity id 759 at ([world]196.62260646603653, 70.0, -364.30000001192093)
-[21:22:08] [Server thread/INFO]: JustMilaros issued server command: /tag @a add anim.ruleta.roja
-[21:22:08] [Server thread/INFO]: [JustMilaros: Added tag 'anim.ruleta.roja' to JustMilaros]
-[21:22:31] [Server thread/INFO]: JustMilaros issued server command: /kill
-[21:22:31] [Server thread/INFO]: [JustMilaros: Killed JustMilaros]
-[21:22:36] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
-[21:22:36] [Server thread/INFO]: [JustMilaros: Set own game mode to Creative Mode]
-[21:22:45] [Server thread/INFO]: JustMilaros issued server command: /tag JustMilaros list
-[21:22:59] [Server thread/INFO]: JustMilaros issued server command: /tag @a remove anim.ruletaroja
-[21:22:59] [Server thread/INFO]: [JustMilaros: Removed tag 'anim.ruletaroja' from JustMilaros]
-[21:23:11] [Server thread/INFO]: JustMilaros issued server command: /tag @a add anim.ruleta.roja
-[21:23:11] [Server thread/INFO]: [JustMilaros: Added tag 'anim.ruleta.roja' to JustMilaros]
-[21:23:34] [Server thread/INFO]: JustMilaros issued server command: /tag @a add anim.ruleta.roja
-[21:23:34] [Server thread/INFO]: [JustMilaros: Added tag 'anim.ruleta.roja' to JustMilaros]
-[21:25:36] [Server thread/INFO]: JustMilaros issued server command: /tag @a add anim.muerte
-[21:25:36] [Server thread/INFO]: [JustMilaros: Added tag 'anim.muerte' to JustMilaros]
-[21:26:43] [Server thread/INFO]: JustMilaros issued server command: /tag @a add anim.ruleta.roja
-[21:26:43] [Server thread/INFO]: [JustMilaros: Added tag 'anim.ruleta.roja' to JustMilaros]
+[22:22:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:22:27] [Server thread/INFO]: Default game type: SURVIVAL
+[22:22:27] [Server thread/INFO]: Generating keypair
+[22:22:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:22:27] [Server thread/INFO]: Using epoll channel type
+[22:22:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:22:27] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:22:27] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[22:22:28] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[22:22:28] [Server thread/INFO]: [floodgate] Took 644ms to boot Floodgate
+[22:22:28] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[22:22:28] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[22:22:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:22:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:22:29] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Loading server plugin Dedsafio3VanillaClubPala v1.0.2
+[22:22:29] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
+[22:22:29] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:22:29] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:22:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:22:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:22:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:22:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:22:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:22:29] [Server thread/INFO]: Preparing level "world"
+[22:22:29] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:22:29] [Server thread/INFO]: View Distance: 7
+[22:22:29] [Server thread/INFO]: Simulation Distance: 9
+[22:22:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:22:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:22:29] [Server thread/INFO]: Mob Spawn Range: 6
+[22:22:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:22:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:22:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:22:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:22:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:22:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[22:22:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:22:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[22:22:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22:22:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:22:29] [Server thread/INFO]: Max TNT Explosions: 100
+[22:22:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:22:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:22:30] [Server thread/INFO]: View Distance: 7
+[22:22:30] [Server thread/INFO]: Simulation Distance: 9
+[22:22:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:22:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:22:30] [Server thread/INFO]: Mob Spawn Range: 6
+[22:22:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:22:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:22:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:22:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:22:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:22:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:22:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[22:22:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22:22:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:22:30] [Server thread/INFO]: Max TNT Explosions: 100
+[22:22:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:22:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:22:30] [Server thread/INFO]: View Distance: 7
+[22:22:30] [Server thread/INFO]: Simulation Distance: 9
+[22:22:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:22:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:22:30] [Server thread/INFO]: Mob Spawn Range: 6
+[22:22:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:22:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:22:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:22:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:22:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:22:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[22:22:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:22:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[22:22:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22:22:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:22:30] [Server thread/INFO]: Max TNT Explosions: 100
+[22:22:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:22:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:22:30] [Server thread/INFO]: Time elapsed: 341 ms
+[22:22:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:22:30] [Server thread/INFO]: Time elapsed: 86 ms
+[22:22:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:22:30] [Server thread/INFO]: Time elapsed: 76 ms
+[22:22:30] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[22:22:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[22:22:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[22:22:31] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[22:22:31] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[22:22:31] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Enabling Dedsafio3VanillaClubPala v1.0.2
+[22:22:31] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Horario de cierre del servidor: 23:59:59
+[22:22:31] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Horario de apertura del servidor: 14:00
+[22:22:31] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Tiempo de aparición de BossBar antes de cerrar: 300
+[22:22:31] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Dedsafio3VanillaClubPala ha sido habilitado - Club Pala
+[22:22:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
+[22:22:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:22:32] [Server thread/INFO]: [Geyser-Spigot] 
+[22:22:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
+[22:22:32] [Server thread/INFO]: [Geyser-Spigot] 
+[22:22:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:22:37] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1954
+[22:22:37] [Server thread/INFO]: [Geyser-Spigot] Done (5.232s)! Run /geyser help for help!
+[22:22:37] [Server thread/INFO]: Running delayed init tasks
+[22:22:37] [Server thread/INFO]: Done (11.797s)! For help, type "help"
+[22:22:37] [Server thread/INFO]: Timings Reset
+[22:22:37] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:22:51] [User Authenticator #0/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
+[22:22:51] [Server thread/INFO]:  JustMilaros se ha conectado
+[22:22:51] [Server thread/INFO]: JustMilaros[/127.76.223.122:38781] logged in with entity id 360 at ([world_nether]33.0110332675582, 98.0625, -41.69999998807907)
+[22:23:20] [Server thread/INFO]: JustMilaros issued server command: /plugins
+[22:23:52] [Server thread/INFO]: JustMilaros issued server command: /r ruleta title roja
+[22:25:18] [Server thread/INFO]: JustMilaros issued server command: /r ruleta title roja * "Samsung Galaxy"
+[22:25:33] [Server thread/INFO]: Displaying particle minecraft:entity_effect
+[22:25:43] [Server thread/INFO]: Displaying particle minecraft:entity_effect
+[22:26:02] [Server thread/INFO]: JustMilaros issued server command: /r reload
+[22:26:02] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Horario de cierre del servidor: 23:59:59
+[22:26:02] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Horario de apertura del servidor: 14:00
+[22:26:02] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Tiempo de aparición de BossBar antes de cerrar: 300
+[22:26:02] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Configuración recargada por JustMilaros.
+[22:27:15] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
+[22:27:15] [Server thread/INFO]: [JustMilaros: Set own game mode to Survival Mode]
+[22:27:20] [Server thread/INFO]: ⚙ JustMilaros ha consumido un tótem!
+[22:27:22] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[22:27:22] [Server thread/INFO]: [JustMilaros: Set own game mode to Creative Mode]
+[22:29:30] [Server thread/INFO]: JustMilaros issued server command: /r reload
+[22:29:30] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Horario de cierre del servidor: 23:59:59
+[22:29:30] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Horario de apertura del servidor: 14:00
+[22:29:30] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Tiempo de aparición de BossBar antes de cerrar: 300
+[22:29:30] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Configuración recargada por JustMilaros.
+[22:29:40] [Server thread/INFO]: JustMilaros issued server command: /r ruleta actionbar rosada
+[22:30:35] [Server thread/INFO]: JustMilaros issued server command: /r ruleta subtitle rosada * mensaje_normal "y pellegrini, vega en bikini."
+[22:30:49] [Server thread/INFO]: Displaying particle minecraft:entity_effect
+[22:31:07] [Server thread/INFO]: Displaying particle minecraft:entity_effect
+[22:31:47] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username JustMilaross
+[22:31:47] [localSession-7-2/INFO]: [Geyser-Spigot] JustMilaross (logged in as: JustMilaross) has connected to the Java server
+[22:31:47] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .JustMilaross is 00000000-0000-0000-0009-01f9001e85d4
+[22:31:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .JustMilaross joined (UUID: 00000000-0000-0000-0009-01f9001e85d4)
+[22:31:47] [Server thread/INFO]:  .JustMilaross se ha conectado!
+[22:31:47] [Server thread/INFO]: .JustMilaross[/127.0.0.1:0] logged in with entity id 372 at ([world]184.78316, 64.0, -405.99228)
+[22:32:16] [Server thread/INFO]: JustMilaros issued server command: /r tp_transition JustMilaros 41,98,-45,130,29
+[22:32:46] [Server thread/INFO]: JustMilaros issued server command: /r ruleta scoreboard naranja * mensaje_normal "Mensaje"
+[22:33:00] [Server thread/INFO]: Displaying particle minecraft:entity_effect
+[22:33:00] [Server thread/INFO]: Displaying particle minecraft:entity_effect
+[22:33:59] [Server thread/INFO]: .JustMilaross issued server command: /time set day
+[22:33:59] [Server thread/INFO]: [.JustMilaross: Set the time to 1000]
+[22:34:04] [Server thread/INFO]: .JustMilaross issued server command: /weather clear
+[22:34:04] [Server thread/INFO]: [.JustMilaross: Set the weather to clear]
+[22:34:25] [Server thread/INFO]: .JustMilaross has made the advancement [Monster Hunter]
+[22:36:08] [Server thread/INFO]: .JustMilaross issued server command: /gamemode survival
+[22:36:08] [Server thread/INFO]: [.JustMilaross: Set own game mode to Survival Mode]
+[22:37:03] [Server thread/INFO]: .JustMilaross lost connection: Tu aventura por Hardcore 20 ha terminado.
+[22:37:03] [Server thread/INFO]:  .JustMilaross se ha desconectado
+[22:37:03] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .JustMilaross disconnected
+[22:37:03] [localSession-7-2/INFO]: [Geyser-Spigot] JustMilaross has disconnected from the Java server because of §r§eTu aventura por Hardcore 20 §r§4§lha terminado.
+[22:37:55] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
+[22:37:55] [Server thread/INFO]: [JustMilaros: Set own game mode to Survival Mode]
+[22:38:01] [Server thread/INFO]: JustMilaros tried to swim in lava
+[22:38:08] [Server thread/INFO]: JustMilaros lost connection: Tu aventura por Hardcore 20 ha terminado.
+[22:38:08] [Server thread/INFO]:  JustMilaros se ha desconectado
+[22:38:18] [User Authenticator #1/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
+[22:38:18] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5a0968ed[id=17faf0ce-7657-3f28-a540-4b70c4a9992f,name=JustMilaros,properties={},legacy=false] (/127.76.223.122:39469): You are banned from this server.
+Reason: §eTu aventura por Hardcore 20 §4§lha terminado.
+[22:38:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@5a0968ed[id=17faf0ce-7657-3f28-a540-4b70c4a9992f,name=JustMilaros,properties={},legacy=false] (/127.76.223.122:39469) lost connection: You are banned from this server.
+Reason: §eTu aventura por Hardcore 20 §4§lha terminado.
+[22:39:50] [Server thread/INFO]: Stopping the server
+[22:39:50] [Server thread/INFO]: Stopping server
+[22:39:50] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
+[22:39:50] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:39:50] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:39:50] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Disabling Dedsafio3VanillaClubPala v1.0.2
+[22:39:50] [Server thread/INFO]: [Dedsafio3VanillaClubPala] Dedsafio3VanillaClubPala ha sido deshabilitado - Club Pala
+[22:39:50] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
+[22:39:50] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[22:39:50] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[22:39:50] [Server thread/INFO]: Saving players
+[22:39:50] [WebSocketConnectReadThread-70/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:39:50] [Server thread/INFO]: Saving worlds
+[22:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:39:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:39:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:39:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:39:50] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 196 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[22:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 44 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[22:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:39:51] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:39:51] [Server thread/INFO]: Flushing Chunk IO
+[22:39:51] [Server thread/INFO]: Closing Thread Pool
+[22:39:51] [Server thread/INFO]: Closing Server

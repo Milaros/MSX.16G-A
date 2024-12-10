@@ -1,0 +1,55 @@
+on-death:
+  actionbar:
+    enable: true
+    # Colores de Minecraft
+    # &0 = Negro
+    # &1 = Azul oscuro
+    # &2 = Verde oscuro
+    # &3 = Aqua
+    # &4 = Rojo oscuro
+    # &5 = Morado
+    # &6 = Amarillo
+    # &7 = Gris claro
+    # &8 = Gris oscuro
+    # &9 = Azul claro
+    # &a = Verde claro
+    # &b = Aqua claro
+    # &c = Rojo claro
+    # &d = Rosa
+    # &e = Amarillo claro
+    # &f = Blanco
+    color: '&4'
+    show-to: 'all' # Opciones: 'all' o 'victim'
+  animation:
+    enable: true
+    show-to: 'all' # Opciones: 'all' o 'victim'
+  spectator-mode: true
+  immediate-respawn: true
+  ban:
+    enable: true
+    after-seconds: 7 # Segundos después de los cuales el jugador será baneado
+    message: "&eTu aventura por Hardcore 20 &4&lha terminado."
+
+# colors: https://www.birdflop.com/resources/rgb/
+use-totem-message:
+  enable: true
+  message: "&x&F&B&F&F&C&5⚙ &e&l%player% &x&F&B&F&F&C&5ha consumido un tótem!"
+
+on-join:
+  enable: true
+  message: "\uEAA3 &2&l%player% &2se ha conectado!"
+
+on-leave:
+  enable: true
+  message: "\uEAA0 &c&l%player% &cse ha desconectado"
+
+messages:
+  mensaje_normal:
+    title: "Samsung Galaxy"
+    message: "y pellegrini, vega en bikini"
+  mensaje_acciones:
+    title: "Acciones"
+    message: "Este mensaje contiene acciones (comandos)"
+    actions:
+      - 'tellraw @a ["Edita las acciones en ",{"text":"config.yml","color":"gold"}," > ",{"text":"messages","color":"gray"}]'
+      - 'execute as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 4 1 1'

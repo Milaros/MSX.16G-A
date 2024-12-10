@@ -1,0 +1,73 @@
+animations:
+  death:
+    start: "\uE000"
+    end: "\uE05B"
+    sound: "cpaladeds3:muerte"
+    sound_volume: 4
+    sound_pitch: 1
+  ruleta-amarilla:
+    start: "\uE05C"
+    end: "\uE17B"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+    actions:
+      - "say Esta ruleta trae acciones: animations.yml"
+  ruleta-azul:
+    start: "\uE17C"
+    end: "\uE29F"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+  ruleta-morada:
+    start: "\uE2A0"
+    end: "\uE3C5"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+  ruleta-naranja:
+    start: "\uE3C6"
+    end: "\uE4E4"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+  ruleta-roja:
+    start: "\uE4E5"
+    end: "\uE60B"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+    final_animation: "momento-reviil"
+  ruleta-rosada:
+    start: "\uE60C"
+    end: "\uE731"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+    final_animation: "momento-nutria"
+  ruleta-turqueza:
+    start: "\uE732"
+    end: "\uE850"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+  ruleta-verde:
+    start: "\uE851"
+    end: "\uE972"
+    sound: "cpaladeds3:ruleta"
+    sound_volume: 4
+    sound_pitch: 1
+  momento-nutria:
+    start: "\uEA3A"
+    end: "\uEA9B"
+    sound: "cpaladeds3:nutria"
+    sound_volume: 4
+    sound_pitch: 1
+    shader: "nutria"
+  momento-reviil:
+    start: "\uE973"
+    end: "\uEA39"
+    sound: "cpaladeds3:reviil"
+    sound_volume: 4
+    sound_pitch: 1
+    shader: "reviil"
