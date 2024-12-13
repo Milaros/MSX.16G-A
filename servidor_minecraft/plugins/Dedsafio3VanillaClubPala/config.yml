@@ -53,3 +53,64 @@ messages:
     actions:
       - 'tellraw @a ["Edita las acciones en ",{"text":"config.yml","color":"gold"}," > ",{"text":"messages","color":"gray"}]'
       - 'execute as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 4 1 1'
+
+time_controller:
+  enable: false
+  close_server: "23:59:59" # Hora de cierre
+  open_server: "14:00:00"  # Hora de apertura
+  bossbar_in: 300          # Segundos antes de que aparezca el bossbar
+  kick:
+    enable: true
+    without_permission: "cpalad3v.no_kick"
+    message: "El servidor ha &6cerrado &fvuelva mañana."
+
+revive:
+  soul_system: false # Cuando esta activo se necesitara la cantidad de almas dichas en souls_per_player, sino sera infinitas.
+  souls_per_player: 1 # Almas por jugador
+  quantity_spoons: 1 # Cantidad de cucharas
+  msg_no_spoons: "&cNecesitas &eUna Cuchara &cpara revivir a un jugador."
+  msg_no_soul: "&cYa no tienes &ealma &cpara revivir a un jugador."
+  msg_revive_limit: "&cEl jugador al que intentas revivir ha alcanzado el límite de revividas permitidas."
+  how_many_times_revive: 1 # Cantidad de veces que un jugador puede revivir. Pon -1  y sera infinito
+  actions_when_revived:
+    - "say %source% ha revido a %target% > Editable en config.yml linea 67 (revive)"
+
+# causes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+# sources/targets: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+# or use ALL in sources/targets
+damage:
+  creeper:
+    enable: true
+    sources:
+      - CREEPER
+    targets:
+      - PLAYER
+    causes:
+      - ENTITY_EXPLOSION
+    multiplier: 10
+  flecha_esqueleto:
+    enable: true
+    sources:
+      - SKELETON
+    targets:
+      - PLAYER
+    causes:
+      - PROJECTILE
+    multiplier: 0
+  fuego:
+    enable: true
+    targets:
+      - PLAYER
+    causes:
+      - FIRE_TICK
+      - FIRE
+    multiplier: 0
+  zombie_1:
+    enable: true
+    sources:
+      - ZOMBIE
+    targets:
+      - PLAYER
+    causes:
+      - ENTITY_ATTACK
+    multiplier: 5
