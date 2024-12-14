@@ -189,3 +189,7 @@
 [01:57:02] [Server thread/INFO]: [JustMilaros: Set the time to 1000]
 [01:57:08] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
 [01:57:08] [Server thread/INFO]: [JustMilaros: Set own game mode to Creative Mode]
+[02:03:14] [Server thread/INFO]: JustMilaros issued server command: /time set day
+[02:03:14] [Server thread/INFO]: [JustMilaros: Set the time to 1000]
+[02:03:21] [Server thread/INFO]: JustMilaros issued server command: /weather clear
+[02:03:21] [Server thread/INFO]: [JustMilaros: Set the weather to clear]
