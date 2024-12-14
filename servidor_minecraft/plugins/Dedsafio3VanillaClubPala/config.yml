@@ -65,7 +65,7 @@ time_controller:
     message: "El servidor ha &6cerrado &fvuelva mañana."
 
 revive:
-  soul_system: false # Cuando esta activo se necesitara la cantidad de almas dichas en souls_per_player, sino sera infinitas.
+  soul_system: true # Cuando esta activo se necesitara la cantidad de almas dichas en souls_per_player, sino sera infinitas.
   souls_per_player: 1 # Almas por jugador
   quantity_spoons: 1 # Cantidad de cucharas
   msg_no_spoons: "&cNecesitas &eUna Cuchara &cpara revivir a un jugador."

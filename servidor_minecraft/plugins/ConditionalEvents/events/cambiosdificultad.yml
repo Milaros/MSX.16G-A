@@ -1,0 +1,39 @@
+Events:
+  boton:
+    type: block_interact
+    enabled: false
+    conditions:
+    - '%block% == STONE_BUTTON or %block% == OAK_BUTTON or %block% == ACACIA_BUTTON or %block% == BAMBOO_BUTTON or %block% == BIRCH_BUTTON or %block% == CHERRY_BUTTON or %block% == CRIMSON_BUTTON
+    or %block% == JUNGLE_BUTTON or %block% == LEGACY_STONE_BUTTON or %block% == LEGACY_WOOD_BUTTON or %block% == MANGROVE_BUTTON or %block% == POLISHED_BLACKSTONE_BUTTON
+    or %block% == SPRUCE_BUTTON or %block% == WARPED_BUTTON'
+    - '%action_type% == RIGHT_CLICK'
+    actions:
+      default:
+      - 'damage: 9999999'
+  spawnchargedcreeper:
+    enabled: false
+    type: entity_spawn
+    conditions:
+    - '%entity% == CREEPER'
+    - '%reason% == NATURAL'
+    actions:
+      default:
+      - "cancel_event: true"
+      - 'console_command: summon creeper %entity_x% %entity_y% %entity_z% {powered:1}'
+  falldamage:
+    enabled: false
+    type: player_damage
+    conditions:
+    - '%cause% == LAVA or %cause% == FALL'
+    actions:
+      default:
+      - 'set_damage: 300%'
+  lavapurificadora:
+    enabled: false
+    type: repetitive
+    repetitive_time: 10
+    conditions:
+    - '%playerblock_inside% == LAVA'
+    actions:
+      default:
+      - 'remove_potion_effect: FIRE_RESISTANCE'
